@@ -1,8 +1,10 @@
 #include<stdlib.h>
 using namespace std;
 extern void splash();
+extern void starting();
 void menuchoose();
 void doaschoice();
+void newgame();
 void menu()
 {
 menuchoose();
@@ -21,17 +23,19 @@ void menuchoose()
 
 void doaschoice()
 {
-/*if(menuchoice==1)
+if(menuchoice==1)
     newgame();
-else if(menuchoice==2)
+/*else if(menuchoice==2)
     continuegame();
 else if(menuchoice==3)
     selectmission();*/
- if(menuchoice==4)
+else if(menuchoice==4)
     splash();
 else if(menuchoice==5)
     exit(0);
 
-
-
+}
+void newgame()
+{
+starting();
 }

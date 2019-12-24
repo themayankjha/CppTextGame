@@ -16,5 +16,8 @@ void fatiguechange(int a){
 void intelligencechange(int a){
     intelligence=intelligence+a;
 }
+void charmchange(int a){
+    charm=charm+a;
+}
 };
 playerclass player;

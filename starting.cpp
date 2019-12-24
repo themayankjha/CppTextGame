@@ -13,8 +13,8 @@ void starting()
 	if(choice1==1)
 	{
 		cout<<"You Gently Open Your Eyes. You cannot see properly,the light is hurting your eyes.You flinch and close your eyes rapidly."<<endl;
-		cin.ignore();
 		player.fatiguechange(+1);
+		cout<<" "<<endl;
 		cout <<"Careful, Careful Now. You should stay still, the wound is still open. The bullet is out but try not to move too much and you'll be fine"<< endl;
 		cin.ignore();
 		cout<<"Open your eyes,Slowly,I need to check your pupils."<<endl;
@@ -23,8 +23,8 @@ void starting()
 	if(choice1==2)
 	{
 		cout<<"You stay still and do not move, you try to figure out where you are and what happened to you."<<endl;\
-		cin.ignore();
 		player.intelligencechange(+1);
+		cout<<" "<<endl;
 		cout<<"I know you\'re awake soldier, slowly open your eyes , I need to check your pupils."<<endl;
 		cin.ignore();
 		cout<<"You should stay still, the wound is still open. The bullet is out but try not to move too much and you'll be fine"<<endl;
